@@ -2,4 +2,4 @@
 
 Curso inicial para devs
 
-[Visita mi blog] (https://www.google.com.mx/save?authuser=0)
+[Visita mi blog](https://www.google.com.mx/save?authuser=0)
