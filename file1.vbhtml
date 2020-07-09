@@ -5,6 +5,8 @@
 @imports Extranet.Web.Models.TimeOfDay
 @imports Extranet.Website.Models
 
+--teo version readme
+
 @Code
     ViewData("Title") = "Editar Promocion"
     Layout = "~/Views/Shared/_LayoutPopUp.vbhtml"
