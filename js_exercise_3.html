@@ -1,0 +1,43 @@
+<html> 
+  <head>
+    <title>Javascript Exercise 3</title> 
+  </head>
+
+  <body> 
+    <h1>Javascript Exercise 3</h1> 
+
+    <script type="text/javascript">
+
+        var a = 111;
+
+        function primeraFuncion ()
+        {
+            var b = 2;
+            console.log("hola");
+
+            function segundaFuncion()
+            {
+                var c = 3;
+                //comentamos para ver el valor de la var "a" global
+                // var a = 20;
+
+                function terceraFuncion()
+                {
+                    console.log('Función #3 ==>');
+                    console.log("a = ", a);
+                    console.log("b = ", b);
+                    console.log("c = ", c);
+                }
+
+                terceraFuncion();
+            }
+
+            segundaFuncion();
+        }
+
+        primeraFuncion();
+
+    </script>
+  </body>
+</html>
+

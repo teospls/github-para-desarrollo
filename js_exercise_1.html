@@ -1,0 +1,41 @@
+<html> 
+  <head>
+    <title>Javascript Exercise 1</title> 
+  </head>
+
+  <body> 
+    <h1>Javascript Exercise 1</h1> 
+
+    <script type="text/javascript">
+
+      console.log(this);
+
+      function incrementar(val) 
+      {
+        return val +1;
+      }
+
+      console.log('resultado de la funcion "incrementar", es:', incrementar(9));
+
+      var a = 1;
+
+      function primeraFuncion ()
+      {
+        console.log('El valor de a es:', a);
+      }
+
+      function imprimirLetra ()
+      {
+        var a= 2;
+        primeraFuncion();
+
+        console.log('El valor variable local a es:', a);
+      }
+
+      imprimirLetra();
+    
+
+    </script>
+  </body>
+</html>
+
