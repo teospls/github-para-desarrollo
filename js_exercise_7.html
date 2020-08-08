@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Javascript Exercise 7</title> 
+      </head>
+<body>
+    <script type = "text/javascript">
+    
+    const Persona = function (el_nombre) {
+        this.minombre = el_nombre;
+    }
+    
+    //__proto__
+    Persona.prototype.decirNombre = function () {
+        console.log("Mi nombre es:", this.minombre);
+    }
+
+    const persona1 = new Persona ("Lincy");
+    persona1.decirNombre();
+
+    const persona2 = new Persona("Lucía");
+    persona2.decirNombre();
+
+    </script>
+</body>
+</html>

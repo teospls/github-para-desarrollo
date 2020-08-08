@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Javascript Exercise 8</title> 
+      </head>
+<body>
+    <script type = "text/javascript">
+    
+        class Persona {
+            constructor (elNombre) {
+                this.miNombre = elNombre;
+            }
+
+            decirNombre() {
+                console.log ("Mi nombre es:", this.miNombre);
+            }
+        }
+
+        const persona1 = new Persona("Lincy");
+        persona1.decirNombre();
+
+        const persona2 = new Persona("Lucía");
+        persona2.decirNombre();
+
+    </script>
+</body>
+</html>

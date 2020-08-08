@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Javascript Exercise 9</title> 
+      </head>
+<body>
+    <script type = "text/javascript">
+    
+    const objetoMap = new Map();
+    objetoMap.set("un string", "valor asociado a un string");
+
+   const miObjeto = {};
+
+   objetoMap.set(miObjeto, "valor asociado a un objeto");
+   objetoMap.set(12, "valor asociado a un numero");
+
+   for ([my_key, my_value] of objetoMap)
+   {
+       console.log (my_value);
+   }
+
+    </script>
+</body>
+</html>
